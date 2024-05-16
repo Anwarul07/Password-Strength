@@ -18,11 +18,35 @@
   position: relative;
 }
 .input-box input {
-  width: 100%;
+  width: 95%;
   height: 60px;
   padding: 0 20px;
   border: 1px solid #ccc;
   outline: none;
   color: #fff;
   background: transparent;
+}
+button img {
+  width: 35px;
+  border-radius: 50%;
+}
+button {
+  background: transparent;
+  border: 0;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
+#msg{
+color: #fff;
+font-size: 15px;
+position: absolute;
+bottom: -25px;
+left: 3px;
+}
+::placeholder{
+    font-size: 15px; 
 }
