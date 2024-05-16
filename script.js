@@ -1,1 +1,1 @@
-console.log("See the Strength of Paassword")
+console.log("See the Strength of Paassword");
